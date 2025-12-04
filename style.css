@@ -1,0 +1,383 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,
+body{
+    background-color: white;
+    color: gray;
+    font-family:Lato,sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    text-rendering: optimizeLegibility;
+    overflow-x: hidden;
+}
+ .row{
+    max-width: 1140px;
+    margin: 0 auto;
+    
+    
+} 
+header{
+   background-image: linear-gradient(rgb(8 7 7 / 60%), rgba(21, 21, 21, 0.8)),
+                    url('img/kids-healthy-food-background-preparation-lunchbox_53876-129254.avif');
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+h1{
+    color:white;
+    font-size: 240%;
+    font-weight: 300;
+    text-transform: uppercase;
+    word-spacing: 3px;
+    letter-spacing: 1px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+.hero_text{
+     position:absolute;
+     /* width:1140px;   */
+     top:40%;
+     left:10%;
+     transition:translate(-50%,-50%);
+}
+.btn:link,
+.btn:visited,
+input[type=submit]{
+   display: inline-block;
+   padding: 10px 30px;
+   text-decoration: none;
+   font-weight: 300;
+   border-radius:200px;
+   margin-top:25px;
+}
+.btn_A:link,
+.btn_A:visited,
+input[type=submit]{
+    background-color: #dd374d;
+    color: white;
+    border:2px;
+    margin-right: 25px ;
+}
+.btn_B:link,
+.btn_B:visited{
+    border:2px solid  #dd374d;
+    color:  #dd374d;
+}
+.btn,
+input[type=submit]:hover{
+    color: orange;
+}
+.btn_B:hover{
+    color: aliceblue;
+    background-color: orange;
+}
+.logo{
+    height:100px;
+    width:auto;
+    float:left;
+    margin-top:10px;
+    opacity: 0.5;
+    border-radius: 50%;
+   
+}
+.logo:hover{
+    opacity: 0.5;
+     /* -ms-transform: scale(1.2);
+    transform: scale(1.2);
+    transition: 1s ease; */
+}
+.main-img{
+    float:right;
+    list-style:none;
+    margin-top: 55px;
+}
+.main-img li{
+    display:inline-block;
+    margin-left: 40px;
+}
+.main-img li a:link,
+.main-img li a:visited{
+    color:white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 90%;
+    padding: 8px 0px;
+    border-bottom: 2px solid transparent;
+}
+.main-img li a:hover{
+    border-bottom:2px solid #dd374d;
+}
+section{
+    padding:80px 0px;
+}
+h2{
+    font-weight: 300;
+    text-transform: uppercase;
+    font-size:180%;
+    word-spacing: 2%;
+    text-align: center;
+    margin-bottom:30px;
+    letter-spacing: 1px;
+}
+h2:after{
+    display:block;
+    background-color: orangered;
+    content:" " ;
+    height: 2px;
+    width: 100px;
+    margin:0px auto;
+    margin-top: 30px;
+}
+.col-1{
+    line-height: 145%;
+    width:70%;
+    margin-left:15%;
+}
+.box{
+    padding:3px;
+}
+h3{
+    font-weight:300;
+    text-transform: uppercase;
+    font-size: 110%;
+    margin-bottom: 15px;
+}
+.box p{
+    font-size:90%;
+    line-height: 145% ;
+}
+.icon{
+    font-size: 155%;
+    color: orangered;
+    margin-bottom: 10px;
+    display: block;
+}
+.meals-showcase{
+    width: 100%; 
+    list-style: none;
+}
+.meals-showcase li{
+    display:block;
+    float: left;
+    width: 25%; 
+}
+.clearfix{zoom:1}
+.clearfix::after{
+   content: '.';
+   clear:both;
+   display: block;
+   height: 0;
+   visibility: hidden;
+}
+.meals{
+    width:100%; 
+    margin:0px;
+    overflow: hidden;
+}
+.meals img{
+    height: auto;
+     width: 100%; 
+     opacity: 0.7;
+}
+.section-meals{
+    padding: 0px;
+}
+.meals img:hover{
+    opacity: 1;
+     -ms-transform: scale(1.2);
+    transform: scale(1.2);
+    transition: 1s ease;
+}
+.section-features .col-1{
+    margin-bottom: 30px;
+}
+
+.work--step{
+    padding: 0px;
+     
+}
+.step-box:first-child{
+    text-align: center;
+    padding-right: 3%;
+    margin-top: 30px;
+}
+.step-box:last-child{
+    padding-left: 3%;
+    margin-top:70px;
+   
+}
+.IMG{
+    width: 40%;
+}
+.work--step div{
+    color: orange;
+    border:2px solid rgb(214, 104, 64);
+    border-radius: 50%;
+    display: inline-block;
+    height: 10%;
+    width: 10%;
+    text-align: center;
+    padding: 5px;
+    font-size: 150%;
+   
+} 
+.btn-app img{
+    height: 60px;
+    width:auto ;
+    margin-right: 5px;
+    padding-bottom: 20px;
+    margin-top:30px;
+}
+.box img{
+   width: 100%;
+   margin-bottom: 15px;
+   opacity: 0.9;
+}
+.cities-features{
+    margin-bottom: 5px;
+}
+.customer-testemonial{
+      background-image: linear-gradient(rgb(8 7 7 / 60%), rgba(21, 21, 21, 0.8)),
+                    url('img/healthy-food-lunch-boxes-assortment-view_23-2149060403.avif');
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color:white;
+  background-attachment: fixed;
+}
+blockquote{
+    padding: 2%;
+    font-style: italic;
+    line-height: 145%;
+    margin-top: 40px;
+    position: relative;
+}
+cite{
+    font-size: 90%;
+    display:block;
+    margin-top: 25px;
+}
+cite img{
+    border-radius: 50%;
+    height: 50px;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+blockquote::before{
+    content: '\201c';
+    display:block;
+    font-size: 400%;
+    position: absolute;
+    top:0;
+    left: -3px;
+}
+.section-plans{
+    background-color: #f4f4f4;
+}
+.plan-box{
+    background-color: #d3d6d7;
+    border-radius: 5px;
+    width: 90%;
+    margin-left: 5%;
+}
+.plan-box div{
+    padding: 15px;
+    border-bottom: 2px solid #eaea;
+}
+.plan-price{
+    font-size:300%;
+    margin-bottom: 10px;
+    font-weight: 100;
+    color:orangered;
+}
+.plan-box ul{
+   list-style: none;
+}
+.plan-box ul li{
+    padding: 5px 0;
+}
+.plan-box div:last-child{
+    border: 0;
+    text-align: center;
+}
+.plan-box div:first-child{
+    background-color: #f6bfc6;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.contact-form{
+    width: 60%;
+    margin: 0 auto;
+}
+input[type=text],
+input[type=Email],
+select,
+textarea{
+    width: 100%;
+    padding: 7px;
+    border-radius: 3px;
+    border:2px solid rgb(247, 186, 186);
+}
+textarea{
+    height: 100%;
+}
+input[type=checkbox]{
+    margin: 10px 5px 10px 0;
+}
+footer{
+    background-color:#333;
+    font-size: 80%;
+    padding: 50px;
+}
+.footer-nav{
+    float: left;
+    list-style: none;
+}
+.social-link{
+    float: right;
+    list-style: none;
+}
+.footer-nav li,
+.social-link li{
+    display:inline-block;
+    margin-right: 20px;
+}
+.footer-nav li a:link,
+.footer-nav li a:visited,
+.social-link li a:link,
+.social-link li a:visited{
+    text-decoration: none;
+    color:#888;
+    border:0;
+}
+.footer-nav li a:hover,
+.social-link li a:hover{
+    color:#ddd;
+}
+footer p {
+ text-align: center;
+ color:#888;
+ font-size: 90%;
+ margin-top: 30px;
+}
+.fb:hover{
+    color:#3b5993;
+}
+.youtube:hover{
+    color:red;
+}
+.insta:hover{
+    color:rgb(241, 103, 103);
+}
+.twitter:hover{
+    color:#00acde;
+}
+.linkedin:hover{
+    color:rgb(62, 62, 247);
+}
